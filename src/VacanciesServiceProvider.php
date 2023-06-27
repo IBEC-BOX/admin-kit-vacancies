@@ -2,11 +2,11 @@
 
 namespace AdminKit\Vacancies;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use AdminKit\Vacancies\Commands\VacanciesCommand;
 use AdminKit\Vacancies\Providers\FilamentServiceProvider;
 use AdminKit\Vacancies\Providers\RouteServiceProvider;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class VacanciesServiceProvider extends PackageServiceProvider
 {

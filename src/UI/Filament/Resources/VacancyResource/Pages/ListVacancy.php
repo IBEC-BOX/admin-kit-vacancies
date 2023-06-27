@@ -2,9 +2,9 @@
 
 namespace AdminKit\Vacancies\UI\Filament\Resources\VacancyResource\Pages;
 
+use AdminKit\Vacancies\UI\Filament\Resources\VacancyResource;
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\ListRecords;
-use AdminKit\Vacancies\UI\Filament\Resources\VacancyResource;
 
 class ListVacancy extends ListRecords
 {

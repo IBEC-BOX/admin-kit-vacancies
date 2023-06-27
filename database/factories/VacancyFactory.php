@@ -2,8 +2,8 @@
 
 namespace AdminKit\Vacancies\Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use AdminKit\Vacancies\Models\Vacancy;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class VacancyFactory extends Factory
 {

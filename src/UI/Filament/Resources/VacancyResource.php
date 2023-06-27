@@ -2,14 +2,14 @@
 
 namespace AdminKit\Vacancies\UI\Filament\Resources;
 
+use AdminKit\Vacancies\Models\Vacancy;
+use AdminKit\Vacancies\UI\Filament\Resources\VacancyResource\Pages;
 use Filament\Forms;
 use Filament\Resources\Concerns\Translatable;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
 use Filament\Resources\Table;
 use Filament\Tables;
-use AdminKit\Vacancies\Models\Vacancy;
-use AdminKit\Vacancies\UI\Filament\Resources\VacancyResource\Pages;
 
 class VacancyResource extends Resource
 {

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace AdminKit\Vacancies\Providers;
 
-use Filament\PluginServiceProvider;
 use AdminKit\Vacancies\UI\Filament\Resources\VacancyResource;
+use Filament\PluginServiceProvider;
 
 class FilamentServiceProvider extends PluginServiceProvider
 {
