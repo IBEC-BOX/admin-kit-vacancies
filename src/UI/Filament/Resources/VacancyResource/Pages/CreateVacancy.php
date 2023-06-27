@@ -1,16 +1,16 @@
 <?php
 
-namespace VendorName\Skeleton\UI\Filament\Resources\SingleNameResource\Pages;
+namespace AdminKit\Vacancies\UI\Filament\Resources\VacancyResource\Pages;
 
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\CreateRecord;
-use VendorName\Skeleton\UI\Filament\Resources\SingleNameResource;
+use AdminKit\Vacancies\UI\Filament\Resources\VacancyResource;
 
-class CreateSingleName extends CreateRecord
+class CreateVacancy extends CreateRecord
 {
     use CreateRecord\Concerns\Translatable;
 
-    protected static string $resource = SingleNameResource::class;
+    protected static string $resource = VacancyResource::class;
 
     protected function getActions(): array
     {

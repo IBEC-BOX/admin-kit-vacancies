@@ -1,14 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace AdminKit\Vacancies;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
-use VendorName\Skeleton\Providers\FilamentServiceProvider;
-use VendorName\Skeleton\Providers\RouteServiceProvider;
+use AdminKit\Vacancies\Commands\VacanciesCommand;
+use AdminKit\Vacancies\Providers\FilamentServiceProvider;
+use AdminKit\Vacancies\Providers\RouteServiceProvider;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class VacanciesServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -18,11 +18,11 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('admin-kit-vacancies')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_admin_kit_vacancies_table')
+            ->hasCommand(VacanciesCommand::class);
     }
 
     public function registeringPackage()

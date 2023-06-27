@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use VendorName\Skeleton\UI\API\Controllers\SingleNameController;
+use AdminKit\Vacancies\UI\API\Controllers\VacancyController;
 
-Route::get('/:package_slug_without_prefix', [SingleNameController::class, 'index']);
-Route::get('/:package_slug_without_prefix/{id}', [SingleNameController::class, 'show']);
+Route::get('/vacancies', [VacancyController::class, 'index']);
+Route::get('/vacancies/{id}', [VacancyController::class, 'show']);
